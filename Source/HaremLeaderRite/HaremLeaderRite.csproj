@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net48</TargetFramework>
+		<LangVersion>latest</LangVersion>
+		<RootNamespace>HaremLeaderRite</RootNamespace>
+		<AssemblyName>HaremLeaderRite</AssemblyName>
+		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+		<Nullable>disable</Nullable>
+		<DebugType>embedded</DebugType>
+		<!-- Point these at your own installs if they live somewhere else. -->
+		<RimWorldManagedDir>E:\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed</RimWorldManagedDir>
+		<VMemesDir>E:\SteamLibrary\steamapps\workshop\content\294100\2636329500\1.6\Assemblies</VMemesDir>
+		<OutputPath>..\..\1.6\Assemblies\</OutputPath>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Reference Include="Assembly-CSharp">
+			<HintPath>$(RimWorldManagedDir)\Assembly-CSharp.dll</HintPath>
+			<Private>false</Private>
+		</Reference>
+		<Reference Include="UnityEngine.CoreModule">
+			<HintPath>$(RimWorldManagedDir)\UnityEngine.CoreModule.dll</HintPath>
+			<Private>false</Private>
+		</Reference>
+		<Reference Include="VanillaMemesExpanded">
+			<HintPath>$(VMemesDir)\VanillaMemesExpanded.dll</HintPath>
+			<Private>false</Private>
+		</Reference>
+	</ItemGroup>
+
+</Project>

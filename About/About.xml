@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Leader's Harem - Harem Rite</name>
+	<author>DanZinagri</author>
+	<packageId>DanZinagri.HaremLeaderRite</packageId>
+	<supportedVersions>
+		<li>1.6</li>
+	</supportedVersions>
+	<modDependencies>
+		<li>
+			<packageId>Ludeon.RimWorld.Ideology</packageId>
+			<displayName>Ideology</displayName>
+			<steamWorkshopUrl>https://store.steampowered.com/app/1392840/RimWorld__Ideology/</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>VanillaExpanded.VMemesE</packageId>
+			<displayName>Vanilla Ideology Expanded - Memes and Structures</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2636329500</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>DanZinagri.HaremLeaderMeme</packageId>
+			<displayName>Leader's Harem (Ideology Meme)</displayName>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Ideology</li>
+		<li>VanillaExpanded.VMemesE</li>
+		<li>DanZinagri.HaremLeaderMeme</li>
+	</loadAfter>
+	<description>Opt-in companion to Leader's Harem. Ideoligions with the Leader's Harem meme gain the "harem rite" ritual..</description>
+</ModMetaData>
