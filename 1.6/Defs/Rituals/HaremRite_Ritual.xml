@@ -133,8 +133,8 @@
         <curve>
           <points>
             <li>(1,  0.0)</li>
-            <li>(5,  0.18)</li>
-            <li>(10, 0.25)</li>
+            <li>(3,  0.18)</li>
+            <li>(5, 0.25)</li>
           </points>
         </curve>
       </li>
@@ -149,21 +149,21 @@
       </li>
       <li>
         <label>Awkward</label>
-        <chance>0.15</chance>
+        <chance>0.05</chance>
         <memory>VME_AwkwardOrgy</memory>
         <description>The {0} was awkward. Everyone sat around not knowing exactly what to do, naked bodies laying everywhere. Quite disappointing.</description>
         <positivityIndex>-1</positivityIndex>
       </li>
       <li>
         <label>Sexy</label>
-        <chance>0.6</chance>
+        <chance>0.65</chance>
         <memory>VME_SexyOrgy</memory>
         <description>The {0} was very sexy. The leader and their harem gave themselves to each other in an expression of their deepest passions.</description>
         <positivityIndex>1</positivityIndex>
       </li>
       <li>
         <label>Exhilarating</label>
-        <chance>0.2</chance>
+        <chance>0.25</chance>
         <memory>VME_ExhilaratingOrgy</memory>
         <description>The {0} was exhilarating! A barrage of ecstasy unlike no other made their bodies tremble with barely concealed excitement.</description>
         <positivityIndex>2</positivityIndex>
