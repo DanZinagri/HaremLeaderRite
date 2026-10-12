@@ -1,27 +1,24 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFramework>net48</TargetFramework>
+		<TargetFramework>net10.0</TargetFramework>
 		<LangVersion>latest</LangVersion>
 		<RootNamespace>HaremLeaderRite</RootNamespace>
 		<AssemblyName>HaremLeaderRite</AssemblyName>
 		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
 		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+		<GenerateDependencyFile>false</GenerateDependencyFile>
 		<Nullable>disable</Nullable>
 		<DebugType>embedded</DebugType>
 		<!-- Point these at your own installs if they live somewhere else. -->
-		<RimWorldManagedDir>E:\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed</RimWorldManagedDir>
+		<RimWorldManagedDir>E:\SteamLibrary\steamapps\common\RimWorld</RimWorldManagedDir>
 		<VMemesDir>E:\SteamLibrary\steamapps\workshop\content\294100\2636329500\1.6\Assemblies</VMemesDir>
-		<OutputPath>..\..\1.6\Assemblies\</OutputPath>
+		<OutputPath>..\..\1.7\Assemblies\</OutputPath>
 	</PropertyGroup>
 
 	<ItemGroup>
 		<Reference Include="Assembly-CSharp">
 			<HintPath>$(RimWorldManagedDir)\Assembly-CSharp.dll</HintPath>
-			<Private>false</Private>
-		</Reference>
-		<Reference Include="UnityEngine.CoreModule">
-			<HintPath>$(RimWorldManagedDir)\UnityEngine.CoreModule.dll</HintPath>
 			<Private>false</Private>
 		</Reference>
 		<Reference Include="VanillaMemesExpanded">
