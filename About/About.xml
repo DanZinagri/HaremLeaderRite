@@ -21,6 +21,7 @@
 		<li>
 			<packageId>DanZinagri.HaremLeaderMeme</packageId>
 			<displayName>Leader's Harem (Ideology Meme)</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/3757032079</steamWorkshopUrl>
 		</li>
 	</modDependencies>
 	<loadAfter>
